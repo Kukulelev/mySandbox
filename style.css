@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  background: linear-gradient(to top left, #28a4b4, #6f82d5);
+  position: relative;
+}
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+.container {
+  text-align: center;
+}
+.moreLess.hide {
+  display: none;
+}
+.gameArea.hide {
+  display: none;
+}

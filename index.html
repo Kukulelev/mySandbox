@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Guess Number</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess Number</h1>
+    </header>
+    <section>
+      <article>
+        <div class="container">
+          <h2>Загадай число от 1 до 10, а я отгадаю😉</h2>
+          <button class="btnStart" onclick="generateNumber(arrTen)">
+            Начать
+          </button>
+          <div class="gameArea hide">
+            <h2>Это число:</h2>
+            <h2 id="num"></h2>
+            <h2 class="guessedNumber"></h2>
+            <div>
+              <button id="yes" onclick="yesClicked()">Да</button>
+              <button id="no" onclick="noClicked()">Нет</button>
+            </div>
+          </div>
+          <div class="moreLess hide">
+            <h2>Ваше число</h2>
+            <button class="more" onclick="moreClicked()">Больше</button>
+            <h2>или</h2>
+            <button class="less" onclick="lessClicked()">Меньше</button>
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
